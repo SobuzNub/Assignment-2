@@ -6,6 +6,7 @@
 
 .header-section{
     width: 1170px;
+    height: 700px;
     margin: 0 auto;
 }
 .left-div{
@@ -66,7 +67,7 @@ li .rare{
     height: 80px;
     left: 300px;
     bottom: 300px;
-    top: 40px;
+    top: 60px;
 }
 .button{
     gap: 10px;
@@ -117,4 +118,85 @@ li .rare{
 .rare-button{
     background-color: #FF5400;
     color: white;
+}
+
+/* tour section starts here */
+
+.tour-container{
+    width: 1170px;
+    height: 650px;
+    /* padding: 100px; */
+    margin: 0 auto;
+}
+
+.tour-content{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.tour-title{
+    width: 355px;
+    height: 50px;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.tour-para-one{
+    width: 577px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.tour-list{
+    width: 525px;
+    height: 61px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tour-para-second{
+    width: 530px;
+    height: 104px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.tour-button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: white;
+}
+.tour-image{
+    width: 540px;
+    height: 550px;
+    margin-left: 42px;
+}
+/* country section starts here */
+
+.country-title{
+    width: 478px;
+    height: 70px;
+    margin: 0 auto;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+.country-desc{
+    width: 643px;
+    height: 52px;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
