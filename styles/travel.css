@@ -605,3 +605,302 @@ li .rare{
     color: #fff;
     font-size: 32px;
 }
+
+/* footer section starts here */
+
+.footer-container{
+    width: 1870px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 0 auto;
+    margin-top: 60px;
+
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    
+    
+}
+.footer-title-two{
+    margin-left: 15px;
+    font-size: 32px;
+    color: var(--Dark-01, #131318);
+    font-weight: 800;
+}
+.footer-desc{
+    width: 769px;
+    height: 52px;
+    text-align: center;
+    margin: 0 auto;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer-hr{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.footer-copy{
+    width: 191px;
+    height: 19px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.display{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-container{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-desc{
+        width: 90%;
+        height: 100%;
+        padding: 10px;
+    }
+    .footer-hr{
+        width: 90%;
+    }
+    .footer-copy{
+        margin-bottom: 20px;
+    }
+    .form-first{
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .form-container{
+        width: 80%;
+        
+    }
+    .form-container-two{
+        width: 100%;
+        
+    }
+    .travel{
+        width: 100%;
+        border-radius: 18px;
+        position: relative;
+    }
+    .travel-button{
+        width: 225px;
+        height: 70px;
+        position: absolute;
+        right: 100px;
+        top: 320px;
+        transform: rotate(-19.628deg);
+    }
+        
+    .travel-title-last{
+        font-size: 20px;
+    }
+    .travel-price{
+        font-size: 10px;
+    }
+    .form{
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .form-title{
+        width: 90%;
+        text-align: center;
+    }
+    .form-desc{
+        width: 90%;
+    }
+    .hr{
+        width: 90%;
+    }
+    .a-simple{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .left-place-content{
+        width: 100%;
+    }
+    .place-container{
+        width: 100%;
+    }
+    .place-title, .place-desc{
+        width: 100%;
+    }
+    .place-image{
+        width: 100%;
+    }
+    .place-list{
+        width: 100%;
+        margin-left: 5px;
+    }
+    .deals-container{
+        width: 100%;
+    }
+    .deals-content{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .deals-img-one, .deals-img-two, .deals-img-three{
+        width: 100%;
+        border-radius: 18px;
+    }
+    .deals-button{
+        display: none;
+    }
+    .choose-container{
+        width: 100%;
+        height: 100%;
+    }
+    .choose-info, .choose-title, .choose-desc{
+        width: 100%;
+    }
+    .choose-second-section{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .image-grid-container{
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .image-grid-content{
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #box-1, #box-2, #box-3, #box-4, #box-5, #box-6, #box-7{
+        width: 100%;
+        height: 100%;
+        
+    }
+    #box-3{
+        width: 100%;
+        margin-top: 100px;
+        padding: 0;
+        margin: 0 ;
+    }
+    #box-4{
+        width: 100%;
+        margin-top: 100px;
+        padding: 0;
+        margin: 0;
+    }
+    #box-5{
+        width: 100%;
+        margin-top: 100px;
+        padding: 0;
+        margin: 0;
+    }
+    #box-6{
+        width: 100%;
+        margin-top: 100px;
+        padding: 0;
+        margin: 0;
+    }
+    #box-7{
+        width: 100%;
+        margin-top: 100px;
+        padding: 0;
+        margin: 0;
+    }
+    .country-container, .country-info, .country-title, .country-desc{
+        width: 100%;
+       
+    }
+    .tour-container{
+        width: 100%;
+        height: 100%;
+    }
+    .tour-content, .left-tour-container{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .tour-title, .tour-para-one, .tour-list{
+        width: 100%;
+        padding-left: 5px;
+    }
+    .right-tour-container{
+        width: 100%;
+    }
+    .tour-image{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header-section{
+        width: 100%;
+    }
+    .left-div{
+        display: flex;
+    }
+    .right-div > ul{
+        flex-direction: column;
+        
+        
+    }
+    .banner-container{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        
+    }
+    .banner-img{
+       
+        width: 535px;
+        position: relative;
+    }
+    .travel-title{
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        margin: 0 auto;
+        right: 300px;
+        font-size: 22px;
+        
+    }
+    .banner-info{
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        font-size: 14px;
+        right: 250px;
+        top: 30px;
+        margin-top: 30px;
+    }
+    .button-container{
+        width: 400px;
+        height: 250px;
+        position: relative;
+        right: 300px;
+        top: 150px;
+        margin: 0 auto;
+       
+    }
+    .button{
+        position: absolute;
+        flex-direction: column;
+        left: 135px;
+        margin: 0 auto;
+        
+    }
+   
+    .header{
+        width: 100%;
+    }
+    
+}
